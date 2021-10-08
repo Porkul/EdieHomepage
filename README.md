@@ -5,7 +5,7 @@ write in terminal:
 1. npm i
 2. gulp
 
-## if something wrong:
+## If something goes wrong:
 
 Do node-sass reinstallation:
 npm rebuild node-sass 
