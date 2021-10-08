@@ -1,0 +1,71 @@
+@use "sass:math";
+// Mixins ===========================================================================================================
+@import "mixins";
+
+// Variables ========================================================================================================
+$minWidth: 320px;
+$maxWidth: 1440px;
+$maxWidthContainer: 1270;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+$mainColor: #333;
+$blueColor: #2d9cdb;
+$grayLigthColor: #e0e0e0;
+$grayColor: #b1b1b1;
+$grayDarkColor: #828282;
+$redColor:  #eb5757;
+$greenColor: #27ae60;
+
+// Fonts ============================================================================================================
+$fontFamily: 'Poppins';
+$fontSize: 18px;
+//&display=swap&subset=cyrillic-ext
+@import "fonts";
+
+//<UI STYLES, FORMS>=================================================================================================
+@import "forms";
+//@import "ui";
+
+// PAGE & ELEMENTS STYLES ===========================================================================================
+//@import "datepicker";
+//@import "lightgallery";
+//@import "pagging";
+//@import "popup";
+@import "header";
+@import "home";
+@import "footer";
+
+// CSS-null =========================================================================================================
+@import "null";
+
+// Wrapper =========================================================================================================
+.wrapper {
+	max-width: 100%;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 90px;
+}
+
+// Main block ========================================================================================================
+.page {
+	flex: 1 1 auto;
+	margin: 0 auto;
+} 
+//====================================================================================================================
+
+.home__hero {
+	margin-bottom: 24px;
+	text-align: center;
+}
+.home__img {
+	height: auto;
+	border-radius: 18px;
+	object-fit: cover;
+}
+
+

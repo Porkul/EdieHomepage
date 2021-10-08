@@ -1,0 +1,100 @@
+// home_form ====================================================================================================
+.form{
+    margin-left: 52px;
+    margin-bottom: 200px;   
+    & .form__about{ 
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+        color: $grayDarkColor;
+        margin-bottom: 5px;    
+    }
+    & .form__item{
+        height: 47px;
+        max-width: 291px;
+        border-radius: 12px;
+        background: #f2f2f2;
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        .form__submit {
+            height: 39px;
+            width: 71px;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            background-color: $blueColor;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            margin-top: 4px;
+            margin-right: 4px;
+        }
+        & .form__input {
+            flex-grow: 1;
+            flex-shrink: 1;
+            border-radius: 12px;
+            border: none;
+            background-color: transparent;
+            padding-left: 20px;
+            outline: none;
+            color: $grayDarkColor;
+            font-size: 14px;
+          
+            &::placeholder {
+              font-family: var(--poppins-font);
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 21px;
+              color: $grayColor;
+            }
+        }
+    }
+}
+// footer_form ==================================================================================================
+.footer__form{  
+    margin-left: 52px;   
+    & .footer__form-about{ 
+        font-size: 10px;
+        font-weight: 500;
+        color: $grayDarkColor;
+        margin-bottom: 5px;    
+    }
+    & .footer__form-item{
+        height: 47px;
+        max-width: 291px;
+        border-radius: 12px;
+        background: $grayLigthColor;
+        display: flex;
+        & .footer__form-submit {
+            height: 39px;
+            width: 71px;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            background-color: $blueColor; 
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            margin-top: 4px;
+            margin-right: 4px;
+        }
+        & .footer__form-input {
+            flex-grow: 1;
+            flex-shrink: 1;
+            border-radius: 12px;
+            border: none;
+            background-color: transparent;
+            padding-left: 20px;
+            outline: none;
+            color: #4f4f4f;
+            font-size: 14px;
+          
+            &::placeholder {
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 21px;
+              color: $grayColor;
+            }
+        }
+    }
+}
